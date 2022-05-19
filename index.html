@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div>
+        <h1>Cadastros de DEVs</h1>
+        <p>Preencha suas informações</p>
+        <br>
+    </div>
+    <form>
+        <fieldset>
+            <div>
+                <label>nome</label>
+                    <input type="text" name="nome" id="nome">
+            </div>
+            <div>
+                <label>Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome">
+            </div>
+        </fieldset>
+        
+        <div>
+            <label>Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div>
+            <label>Qual sua aplicação para desenvolvimento?</label>
+            <label>
+                <input type="radio" name="time" id="frontend">Front-end
+             </label>
+             <label>
+                 <input type="radio" name="time" id="backend">Back-end
+             </label>
+             <label>
+                 <input type="radio" name="time" id="fullstack">Fullstack
+             </label>
+             <label>
+                 <input type="radio" name="time" id="aprendendo">Habilidade em desenvolvimento
+             </label>
+        </div>
+        <div>
+            <label>Idade Senior</label>
+            <select id="senioridade">
+                <option selected disabled value="">Selecione</option>
+                <option>Senior</option>
+                <option>Junior</option>
+                <option>Pleno</option>
+            </select>
+        </div>
+        <fieldset>
+            <div>
+                <label> Selecione a tecnologia que você conhece <br><br></label>
+                
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
