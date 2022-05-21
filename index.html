@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro</title>
-    <link rel="stylesheet" type="text/css" href="./forms.css" media="screen"
+    <link rel="stylesheet" type="text/css" href="./forms.css" media="screen">
 </head>
 <body>
     <div>
@@ -15,7 +15,7 @@
     </div>
     <form>
         <fieldset class="grupo">
-            <div>
+            <div class="campo">
                 <label for="nome"><strong>Nome</strong></label>
                     <input type="text" name="nome" id="nome" required>
             </div>
@@ -30,7 +30,7 @@
             <input type="email" name="email" id="email" required>
         </div>
         <div class="campo">
-            <label><strong>Qual sua aplicação para desenvolvimento?</strong><></label>
+            <label><strong>Qual sua aplicação para desenvolvimento? </strong><></label>
             <label>
                 <input type="radio" name="time" id="frontend">Front-end
              </label>
@@ -44,7 +44,7 @@
                  <input type="radio" name="time" id="aprendendo">Habilidade em desenvolvimento
              </label>
         </div>
-        <div clas="campo">
+        <div class="campo">
             <label for="senioridade"><strong>IdadeSenior</strong> </label>
             <select id="senioridade">
                 <option selected disabled value="">Selecione</option>
@@ -54,7 +54,7 @@
             </select>
         </div>
         <fieldset class="grupo">
-            <div clas="campo">
+            <div id="checkbox">
                 <label><strong>Selecione a tecnologia que você programa</strong>  <br><br></label>
                 <input type="checkbox" name="tecnologia" id="tecnologia" value="HTML">
                 <label for="tecnologia">HTML</label>
@@ -80,11 +80,11 @@
             </div>
         </fieldset>
         <div class="campo">
-            <label><strong>Conte um pouco da sus experiência com algumas dessas tecnologias</strong><br></label>
+            <label><strong>Conte um pouco da sua experiência com algumas dessas tecnologias</strong><br></label>
             <textarea row="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
 
         </div>
-        <button type="submit" clas="botao">Concluido</button>
+        <button class="botao" type="submit">Concluido</button>
     </form>
 </body>
 </html>
